@@ -2,7 +2,6 @@
     "name": "server",
     "public": true,
     "build": {
-        "src": "server/index.js",
         "use": "@vercel/node"
     },
     "routes": [
