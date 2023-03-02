@@ -1,9 +1,9 @@
 {
     "name": "server",
     "public": true,
-    "build": {
-        "use": "@vercel/node"
-    },
+    "builds": [
+        { "src": "*.js", "use": "@vercel/node"}
+    ],
     "routes": [
         {
             "src": "/(.*)",
